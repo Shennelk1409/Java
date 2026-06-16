@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Java-51_Actvy-B</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+   </head>
+   
+  <body id="body" onload="init()">
+    <div id="banner" class="container center">
+      <h1> 51 Activity-B: Filtering Songs</h1>
+    </div>
+    <div class="container subbanner">
+      <div>
+        <p> This webpage allows you to search for specific songs from the Chinook database by filtering them based on specific criteria.
+        </p>
+      </div>
+    </div>
+
+    <!-- filter 1: songs by name, album title or composer-->
+    <div class="container filter">
+      <div>
+        <h3> Search for songs by name, album title or composers
+        </h3>
+        <input style="flex:2;text-align:right;" type="text" id="songname"
+          placeholder="Enter song name" >        
+        <input style="flex:2;text-align:right;" type="text" id="title1"
+          placeholder="Enter album title" >       
+        <input style="flex:2;text-align:right;" type="text" id="composer1"
+          placeholder="Enter composer name" >        
+        <a class="button" onclick="filter1()"> Search </a><br>
+        <h4 id="count"></h4>
+      </div>
+    </div>
+
+    <!-- filter 2: songs by album title and composer-->
+    <div class="container filter">
+      <div>
+        <h3> Search for songs by album title and composer
+        </h3>
+        <input style="flex:2;text-align:right;" type="text" id="title2"
+          placeholder="Enter ablum title" >       
+        <input style="flex:2;text-align:right;" type="text" id="composer2"
+          placeholder="Enter composer name" >        
+        <a class="button" onclick="filter2()"> Search </a><br>
+        <h4 id="count"></h4>
+      </div>
+    </div>
+    
+<!-- Create a container to display results -->
+  <div id='count'></div>   
+  <div id='output'></div>      
+      
+  </body>
+</html>

@@ -1,0 +1,49 @@
+/*
+div{
+  padding: 20px;
+  text-align: center;
+  border: solid 2px black;
+}
+*/
+#header{
+  padding: 20px;
+  text-align: center;
+  border: solid 2px black;
+  background-color:PeachPuff;
+}
+#nav{
+  
+  flex:1;
+  padding: 5px;
+  text-align: center;
+  border: solid 2px black;
+  background-color:Khaki;
+  min-height:500px;
+}
+
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border: solid 2px black;
+}
+
+.searchpanel{
+  text-align: center;
+  border: solid 2px black;
+  background-color:Gold;
+}
+#mainpanel{
+  flex:3;
+  padding: 5px;
+  text-align: center;
+  border: solid 2px black;
+  min-height:500px;
+  background-color:Plum;
+}
+#footer{
+  border: solid 2px black;
+  background-color:PapayaWhip;
+}
+

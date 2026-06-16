@@ -1,0 +1,12 @@
+Challenges:
+
+Create a website with four different webpages:  A home page, customers page, employees page and songs page.
+Allow the user to filter the information on each page (except for the home page).
+
+Replicate the pages after you create one. Use the provided images for page layouts.
+There are 2 folders "cities" and "countries" that contain images of flags for the respective regions.
+
+NOTE: You have already written most of the required code in previous class work (such as Activity 50). 
+So try to copy as much as you can and then modify the HTML, CSS and JS as needed.
+
+REMEMBER: Other than for the Home page, you will need a JavaScript file for each webpage.

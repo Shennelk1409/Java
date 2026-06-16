@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Java-51_Actvy-A</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+   </head>
+   
+  <body id="body" onload="init()">
+    <div id="banner" class="container center">
+      <h1> 51 Activity-A: Filtering Employees </h1>
+    </div>
+    <div class="container subbanner">
+      <div>
+        <p>This webpage will allow a user to search for a employee by City.
+        </p>
+      </div>
+    </div>
+
+    <!-- Add container that has textbox, button and related CSS-->
+    <div class="container filter">
+      <div>
+        <h4> Search for Employees by City
+        </h4>
+        <!-- Task 1: Add an ID and placeholder for the textbox -->
+        <input style="flex:2;text-align:right;" type="text" id="" placeholder="" >       
+        <!-- Task 2: Add an event handler function "filterByCity()", 
+        which will be called when the user clicks on the button. 
+        You will then need to write the function. -->        
+        <a class="button" onclick="filterBycity()"> Search by City </a><br>
+      </div>
+    </div>
+    
+  <!-- Create a container to display results -->
+  <div id='output'></div>      
+      
+  </body>
+</html>

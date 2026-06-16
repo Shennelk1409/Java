@@ -1,0 +1,129 @@
+html,body{
+  margin:0 auto;
+  font-family:Arial;
+}
+.container{
+  display:flex;
+  padding:10px;
+}
+.center{
+  justify-content:center;
+  align-items:center;
+}
+
+nav{
+  background-color:cornflowerblue;
+}
+nav a{
+  color:black;
+  padding:10px;
+  flex:1;
+  text-decoration:none;
+  text-align:center;
+}
+nav a:hover{
+  color:white;
+}
+.subbanner{
+  background-color:cornflowerblue;
+}
+#banner{
+  background-color:blue;
+  color:white;
+}
+#footer{
+  background-color:cornflowerblue;
+  color:white;
+  /*position:fixed;*/
+  left: 0;
+  right: 0;
+  bottom:0px;
+}
+ 
+
+.highlight{
+  font-style:italic;
+  color:blue;
+}
+.heading{
+  font-weight:bold;
+}
+.card a{
+  text-decoration:none;
+  background-color:blue;
+  color:white;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+}
+.card a:hover{
+  background-color:cornflowerblue;
+}
+#panel{
+  flex:1;
+}
+
+.card img{
+  width:90%;
+}
+.filter{
+  display:flex;
+  background-color: #dff2ff;
+  border:1px solid black;
+  
+}
+#output{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dff2ff;
+  margin:5px;
+  padding:5px;
+}
+.card{
+  /*flex:1;   THIS SQUISHES */
+  /*flex-basis:150px   */
+  width:450px;
+  margin:5px;
+  padding:5px;
+  border:1px solid black;
+  text-align:center;
+  background-color:#dedfe7;
+}
+/* target all h4 elements*/
+h3{
+  color:#0000ff
+}
+/*target all the paragraphs in the card class*/
+.card p{
+  font-size:17px;
+  color: black;
+  font-family:verdana;
+  font-style:italic;
+}
+.card div{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size:12px;
+  color: black;
+  font-family:verdana;
+  font-style:italic;
+}
+.card span{
+  font-size:12px;
+  color: blue;
+  font-family:verdana;
+}
+.button{
+  text-decoration:none;
+  background-color:blue;
+  color:white;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+}
+.button:hover{
+  background-color:cornflowerblue;
+}
+

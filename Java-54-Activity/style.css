@@ -1,0 +1,48 @@
+/* CSS selectors and rules */
+#header{
+  padding: 20px;
+  text-align: center;
+  border: solid 2px red;
+  background-color:PeachPuff;
+}
+
+nav{  
+  padding: 5px;
+  text-align: center;
+  border: solid 2px black;
+  background-color:Khaki;
+}
+
+.container{
+  display:flex;
+  text-align: center;
+  border: solid 2px black;
+}
+
+.leftpanel{
+  width:200px; /* width is fixed */
+  text-align: center;
+  border: solid 2px black;
+  height:500px;
+  background-color:Gold;
+}
+#centerpanel{
+  flex:3;
+  text-align: center;
+  border: solid 2px black;
+  height:500px;
+  background-color:Plum;
+}
+.rightpanel{
+  flex:1;
+  text-align: center;
+  border: solid 2px black;
+  height:500px;
+  background-color:Gold;
+}
+
+#footer{
+  text-align: center;
+  border: solid 2px black;
+  background-color:PapayaWhip;
+}
